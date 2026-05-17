@@ -1,0 +1,83 @@
+.header_background {
+    position: relative;
+}
+
+.header_container {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    margin-bottom: 175px;
+}
+
+.header_nav-list {
+    display: flex;
+    gap: 40px;
+
+    & a:hover {
+        padding-bottom: 15px;
+        border-bottom: 2px solid var(--color-gray);
+    }
+}
+
+.header_nav-item {
+    padding: 25px 0;
+}
+
+.header_menu-toggle {
+
+    &:hover .header_menu {
+        display: flex;
+    }
+}
+
+.header_menu {
+    position: absolute;
+    background-color: var(--color-white);
+    text-align: center;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+    text-wrap: nowrap;
+    gap: 60px;
+    padding: 20px;
+    padding-top: 50px;
+    border-bottom: 2px solid var(--color-gray);
+    max-width: 1920px;
+    width: 100%;
+    justify-content: center;
+    display: none;
+}
+
+.header_categoty-item {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.header_categoty-title {
+    border-bottom: 2px solid var(--color-gray);
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+
+    & a:hover {
+        color: var(--color-light-gray);
+    }
+}
+
+.header_download-btn {
+    font-size: 1.3rem;
+}
+
+.header_logo {
+    z-index: 2;
+}
+
+.header_logo-svg {
+    max-width: 95px;
+    width: 99%;
+
+    &:hover {
+        stroke: var(--color-light-gray);
+    }
+}

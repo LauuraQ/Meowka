@@ -1,0 +1,26 @@
+@import 'base/null.css';
+
+@import 'variables/variables.css';
+
+@import 'base/typography.css';
+
+
+@import 'components/about.css';
+@import 'components/contact.css';
+@import 'components/footer.css';
+@import 'components/header.css';
+@import 'components/swiper.css';
+@import 'components/image-converter.css';
+@import 'components/main.css';
+@import 'components/string-editor.css';
+@import 'components/tool-page.css';
+
+.btn {
+    padding: 10px 30px;
+    border: 2px solid var(--color-gray);
+
+    &:hover {
+        background-color: var(--color-gray);
+        color: var(--color-white);
+    }
+}

@@ -1,0 +1,11 @@
+:root {
+    --color-light-gray: #A6A6A6;
+    --color-gray: #4A4A4A;
+    --color-dark-gray: #222222;
+    --color-white: #fff;
+    --color-background-gray: #F5F5F5;
+    --color-dark-gray: #1a1a1a;
+
+    font-size: 1rem;
+    --font-sans: 'Inter', sans-serif;
+}
